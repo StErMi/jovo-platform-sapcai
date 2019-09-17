@@ -1,7 +1,7 @@
 {
   "name": "jovo-platform-sapcai",
   "version": "0.0.1",
-  "description": "",
+  "description": "Jovo implementation for SAP Conversational AI platform",
   "main": "dist/src/index",
   "types": "dist/src/index.d.ts",
   "scripts": {
@@ -11,7 +11,20 @@
     "typedoc": "node_modules/.bin/typedoc --out ./docs ./ --mode file",
     "test": "node_modules/.bin/jest"
   },
-  "author": "jovotech",
+  "author": "Emanuele Ricci <stermi@gmail.com>",
+  "homepage": "https://github.com/StErMi/jovo-platform-sapcai",
+  "bugs": "https://github.com/StErMi/jovo-platform-sapcai/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StErMi/jovo-platform-sapcai.git"
+  },
+  "keywords": [
+    "jovo",
+    "alexa",
+    "dialogflow",
+    "google actions",
+    "chatbot"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "@types/express": "^4.17.1",
